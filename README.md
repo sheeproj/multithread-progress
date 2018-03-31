@@ -6,3 +6,10 @@ Logic of this code is almost same with the ThreadPool's task-queue.
 
 Thanks to authers of the ThreadPool.h
 <https://github.com/bilash/threadpool>
+
+
+# Build
+
+```bash
+g++ -std=c++11 -pthread example.cpp
+```
